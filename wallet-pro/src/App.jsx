@@ -5,6 +5,7 @@ import Home from "./copmonents/Home"
 import Header from "./copmonents/Header"
 import CreateWallet from "./copmonents/CreateWallet"
 import CreateWalletFirstPage from "./copmonents/CreateWalletFirstPage"
+import Dapp from "./copmonents/Dapp"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="solana" element={<SolanaWallet />}/>
           <Route path="ethereum" element={<EthereumWallet />}/>
         </Route>
+        <Route path="dapp" element={<Dapp />} />
       </Routes>
     </div>
   )
