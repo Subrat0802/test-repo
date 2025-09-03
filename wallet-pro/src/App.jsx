@@ -6,6 +6,7 @@ import Header from "./copmonents/Header"
 import CreateWallet from "./copmonents/CreateWallet"
 import CreateWalletFirstPage from "./copmonents/CreateWalletFirstPage"
 import Dapp from "./copmonents/Dapp"
+import TokenLaunchPad from "./copmonents/TokenLaunchPad"
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="ethereum" element={<EthereumWallet />}/>
         </Route>
         <Route path="dapp" element={<Dapp />} />
+        <Route path="tokenlaunchpad" element={<TokenLaunchPad />} />
+
       </Routes>
     </div>
   )

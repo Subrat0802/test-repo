@@ -7,7 +7,7 @@ const Header = () => {
         <Link to={"/"}><p className='font-bold text-3xl  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent '>BlockchainEX</p></Link>
         <ul className='flex gap-8'>
             <NavLink to={"/createWallet"}><li className=' hover:bg-gradient-to-r transition-all duration-200 cursor-pointer hover:from-pink-500 hover:to-yellow-500 hover:bg-clip-text hover:text-transparent'>Create Wallet</li></NavLink>
-            <li className=' hover:bg-gradient-to-r transition-all duration-200 cursor-pointer hover:from-pink-500 hover:to-yellow-500 hover:bg-clip-text hover:text-transparent'>Token launchpad</li>
+            <NavLink to={"/tokenlaunchpad"}><li className=' hover:bg-gradient-to-r transition-all duration-200 cursor-pointer hover:from-pink-500 hover:to-yellow-500 hover:bg-clip-text hover:text-transparent'>Token launchpad</li></NavLink>
             <NavLink to={"/dapp"}><li className=' hover:bg-gradient-to-r transition-all duration-200 cursor-pointer hover:from-pink-500 hover:to-yellow-500 hover:bg-clip-text hover:text-transparent'>Dapp</li></NavLink>
             <li className=' hover:bg-gradient-to-r transition-all duration-200 cursor-pointer hover:from-pink-500 hover:to-yellow-500 hover:bg-clip-text hover:text-transparent'>Solana Faucet</li>
         </ul>
